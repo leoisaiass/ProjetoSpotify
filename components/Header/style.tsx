@@ -1,14 +1,6 @@
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-    cumprimentos: {
-        fontSize: 30,
-        paddingTop: 40,
-        paddingLeft: 20,
-        color: "white",
-        backgroundColor: "#191414",
-        fontFamily: "Verdana",
-    },
     recomendacoesDoDia: {
         flexDirection: "row",
         backgroundColor: "#191414",
@@ -17,11 +9,11 @@ export const styles = StyleSheet.create({
     },
     recomendacoesDoDia1: {
         flexDirection: "column",
-        paddingLeft: 15,
+        paddingLeft: 10,
     },
     recomendacoesDoDia2: {
         flexDirection: "column",
-        paddingLeft: 10,
+        paddingLeft: 10,        
     },
     albunsDoDia: {
         width: 50,
@@ -30,7 +22,12 @@ export const styles = StyleSheet.create({
     },
     descricao: {
         flexDirection: "row",
-        paddingBottom: 10,
+        paddingLeft: 5,
+        paddingTop: 5,
+        paddingBottom: 5,
+        backgroundColor: "#303030",
+        borderRadius: 6,
+        marginBottom: 8,        
     },
     nomeAlbum: {
         color: "#FFFFFF",
@@ -38,6 +35,7 @@ export const styles = StyleSheet.create({
         padding: 10,
     },
     nomeArtista: {
-        color: "#FFFFFF"
+        color: "#FFFFFF",
+        
     }
 });

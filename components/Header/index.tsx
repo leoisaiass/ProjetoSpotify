@@ -1,13 +1,10 @@
-import { Image, StyleSheet, Text, View, ViewBase } from "react-native";
-import {styles} from "./style";
-import {AntDesign} from "@expo/vector-icons";
+import { ScrollView, Image, StyleSheet, Text, View, ViewBase } from "react-native";
+import { styles } from "./style";
+import { AntDesign, FontAwesome } from "@expo/vector-icons";
 
 export default function Header(){
     return(
-        <View>
-            <Text style={styles.cumprimentos} >
-                Bom dia!
-            </Text>
+        <View>       
             <View style={styles.recomendacoesDoDia}>
                 <View style={styles.recomendacoesDoDia1}>
                     <View style={styles.descricao}>
@@ -43,7 +40,8 @@ export default function Header(){
                         {/* <Text style={styles.nomeArtista}>Tyler, The Creator</Text> */}
                     </View>
                 </View>  
-            </View>            
+            </View>       
+              
         </View>
     )
 
